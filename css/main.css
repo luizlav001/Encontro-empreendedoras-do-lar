@@ -1,5 +1,5 @@
 body {
-    font-family: PT sans, arial, sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     background-color: #ededed;
 }
 
@@ -71,6 +71,10 @@ nav a:not(.btn-pink) {
     margin-top: 5px;
 }
 
+.logo-principal{
+    width: 60%;
+}
+
 .btn-pink:hover {
 	color: white;
     box-shadow: 0 5px 14px 0 rgba(195,52,163,.6);
@@ -78,13 +82,17 @@ nav a:not(.btn-pink) {
 
 .content-card{
     background-color: #f7f7f7;
-    padding: 10px;
+    margin: 5px 10px 30px 10px;
     border-radius: 10px;
+    padding: 10px 10px 30px 10px;
 }
 
-#destaque {
-    padding: 110px 0 20px;
-    margin-bottom: 15px;
+.destaque {
+    padding-top: 110px;
+}
+
+.card{
+    padding: 0;
 }
 
 .card img{
@@ -125,6 +133,10 @@ nav a:not(.btn-pink) {
     margin-right: 8px;
 }
 
+.custom-cards{
+    margin: 20px;
+}
+
 .items-menu:hover{
 	text-decoration: none;
     color: #ff4d8a;
@@ -133,6 +145,7 @@ nav a:not(.btn-pink) {
 
 .green-card{
     background-color: #64afbc;
+    padding: 10px;
 }
 
 .green-card .card-body{
@@ -143,22 +156,27 @@ nav a:not(.btn-pink) {
 }
 
 .pink-card{
-    background: #e61b72;
-    color: #fff;
-    max-width: 100%;
-    height: auto;
+    background-color: #e61b72;
+    padding: 10px;
+    opacity: 0.78;
 }
 
 .pink-card .card-img-box{
     background:  #e61b72;
-    width: 280px;
+    width: 60%;
     height: 135px;
     overflow: hidden;
+    opacity: 1;
+}
+
+.Subtitulos{
+    color: #7f7d7e;
 }
 
 .pink-card .img-box{
     width: auto;
     background: #e61b72;
+    opacity: 1;
 }
 
 .green-card .card-img-box{
@@ -174,7 +192,38 @@ nav a:not(.btn-pink) {
 }
 
 .card-body{
-    padding: 4px 4px 4px 4px;
+    padding: 5px 5px 5px 5px;
     font-size: 12px;
 }
+
+.about-text{
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.content-card .row{
+    margin: auto;
+}
+
+.img-profile{
+    max-width: 20%;
+}
+
+.img-profile-botton{
+    width: 48px;
+    overflow: hidden;
+    border-radius: 25px;
+    height: 49px;
+}
+
+.Participante-name{
+    margin-top: 14px;
+    color:  #e61b72;
+}
+
+.img-profile {
+    max-width: 160%;
+}
+
 
