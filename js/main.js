@@ -5,8 +5,7 @@ $(window).on("scroll", function(){
 		distanciaDoTopo = 300
 	}
 
-	$("#teste-scroll").css("top", (distanciaDoTopo / 10) + "px")
-
+	$("#header_shadow").css("top", (distanciaDoTopo / 10) + "px")
 })
 
 var opcoesSR = {
@@ -20,4 +19,4 @@ var opcoesSR = {
 }
 
 ScrollReveal().reveal('#scroll-teste', opcoesSR)
-// ScrollReveal().reveal('.feature', opcoesSR)
+ScrollReveal().reveal('.feature', opcoesSR)
